@@ -13,7 +13,7 @@ let server = express();
 DbContext.connect();
 
 //NOTE Creates a reference to the build project on the client (if api only remove this line)
-server.use(express.static(__dirname + "/../client/dist"));
+server.use(express.static(__dirname + "/../client/winter19-gregslist"));
 
 //NOTE Allows requests from the port 8080, add additional addresses as needed
 var whitelist = ["http://localhost:8080"];
