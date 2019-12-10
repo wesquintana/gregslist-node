@@ -1,5 +1,5 @@
 {
-  "name": "server-template",
+  "name": "gregslist-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "node index.js",
     "setup": "npm install"
   },
-  "author": "Boise Codeworks",
+  "author": "Wesley Quintana",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.1",
